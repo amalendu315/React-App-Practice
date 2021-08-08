@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Todonav from './todo-nav';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
                 <a className="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#"></a>
+                <a className="nav-link" href="#">About</a>
               </li>
             </ul>
             <form className="d-flex">
@@ -26,6 +27,7 @@ function App() {
           </div>
         </div>
       </nav>
+      <Todonav/>
     </div>
   );
 }
